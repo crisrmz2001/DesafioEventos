@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>cRamirezG/Eventos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>
+                New Sources
+            </h1>
+            <button  id ="payoneer" class ="button-checkout" onclick="pago()">Carro</button>
+        </nav>
+    </header>  
+    <main>   
+        <div class="container">
+          <div class="product-container">
+            <h2>Benelli 752 S</h2>
+            <img src="./Multimedia/moto1.webp" alt="image" />
+            <h3>2.750.000 $</h3>
+            <button class="button-add" onclick="agregar('moto1',2750000)">add to cart</button>
+          </div>
+           <div class="product-container">
+            <h2>Benelli 502 C</h2>
+            <img src="./Multimedia/moto2.webp" alt="image" />
+            <h3>1.920.000 $</h3>
+            <button class="button-add" onclick="agregar('moto2',1920000)">add to cart</button>
+          </div>
+  
+          <div class="product-container">
+            <h2>Benelli Leoncino 250</h2>
+            <img src="./Multimedia/moto3.webp" alt="image" />
+            <h3>885.900 $</h3>
+            <button class="button-add" onclick="agregar('moto3',885900)">add to cart</button>
+          </div>
+  
+          <div class="product-container">
+            <h2>Benelli Trk 502</h2>
+            <img src="./Multimedia/moto4.webp" alt="image" />
+            <h3>2.215.000 $</h3>
+            <button class="button-add" onclick="agregar('moto4',2215000)">add to cart</button>
+          </div>
+  
+          <div class="product-container">
+            <h2>Benelli Trk 502 X</h2>
+            <img src="./Multimedia/moto5.webp" alt="image" />
+            <h3>2.510.000 $</h3>
+            <button class="button-add" onclick="agregar('moto5',2510000)">add to cart</button>
+          </div>
+  
+          <div class="product-container">
+            <h2>Benelli Trk 251 Abs</h2>
+            <img src="./Multimedia/moto6.webp" alt="image" />
+            <h3>993.900 $</h3>
+            <button class="button-add" onclick="agregar('moto6',993900)">add to cart</button>
+          </div>
+        </div>
+      </main>
+    <footer>
+        <p>All rights reserved.</p>
+        <a href="https://twitter.com/?lang=es" target="_blank">
+          <i class="fa-brands fa-twitter-square"></i>
+        </a>
+        <a href="https://www.instagram.com/?hl=es-la" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://es-la.facebook.com/" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
